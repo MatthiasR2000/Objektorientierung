@@ -5,8 +5,8 @@
 
 int main() {
     Dealership dealership;
-    dealership.addVehicle(new Car("Toyota", "Corolla", 2020, 20000, 4));
-    dealership.addVehicle(new Motorbike("Harley-Davidson", "Sportster", 2019, 15000, false));
+    dealership.addVehicle(new Car("Maserati", "Ghibli", 2020, 20000, 4));
+    dealership.addVehicle(new Motorbike("Harley", "", 2019, 15000, false));
 
     std::cout << "Dealership Vehicles:" << std::endl;
     dealership.displayAllVehicles();
