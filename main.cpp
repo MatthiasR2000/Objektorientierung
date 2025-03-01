@@ -12,8 +12,8 @@ int main() {
     dealership.displayAllVehicles();
 
     Garage garage;
-    garage.addVehicle(new Car("Ford", "Mustang", 2018, 35000, 2));
-    garage.addVehicle(new Motorbike("Yamaha", "YZF-R1", 2021, 18000, false));
+    garage.addVehicle(new Car("Ferrari", "SF90", 2018, 350000, 2));
+    garage.addVehicle(new Motorbike("Yamaha", "", 2021, 18000, false));
 
     std::cout << "Garage Vehicles:" << std::endl;
     garage.displayAllVehicles();
